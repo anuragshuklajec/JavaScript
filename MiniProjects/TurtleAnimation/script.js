@@ -36,16 +36,16 @@ function handleKeyDown(event){
 
     }
     if (turtle.getBoundingClientRect().x < 0){
-        x = 0
+        x = 0 ;
     }
     if (turtle.getBoundingClientRect().x > window.innerWidth - turtle.getBoundingClientRect().width){
-        x = 0
+        x = 0 ;
     }
     if (turtle.getBoundingClientRect().y < heading.getBoundingClientRect().height ){
         y = 0 ;
        
     }
-    if (turtle.getBoundingClientRect().y > window.innerHeight){
+    if (turtle.getBoundingClientRect().y > window.innerHeight - turtle.getBoundingClientRect().height){
         y = 0 ;
     }
     
