@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    
+}
+img{
+    height: 20rem;
+}
+.turt{
+    --rotateX: 180deg;
+    --rotate: 0deg;
+    --x : 0px;
+    --y: 0px;
+    position: realtive;
+    transform: translateX(var(--x)) translateY(var(--y))
+    rotateY(var(--rotateX)) rotate(var(--rotate))
+}
